@@ -9,7 +9,6 @@ const docReady = (fn) => {
     setTimeout(fn, 1);
   }
 };
-
 const resize = (fn) => window.addEventListener("resize", fn);
 
 const isIterableArray = (array) => Array.isArray(array) && !!array.length;
